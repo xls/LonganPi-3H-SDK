@@ -12,7 +12,7 @@ sudo apt update
 sudo apt install qemu-user-static gcc-aarch64-linux-gnu mmdebstrap git binfmt-support make build-essential  bison flex make gcc libncurses-dev debian-archive-keyring swig libssl-dev bc python3-setuptools python3-dev
 ```
 
-_note: mklinux.sh  git patching will fail patching if username and email is unset_
+_note: mklinux.sh  git patching will fail if username and email is unset_
 setup git environment if not already set.
 Don't forget to set your git user.name and user.email 
 ```
